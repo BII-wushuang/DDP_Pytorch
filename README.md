@@ -1,6 +1,6 @@
 # Distributed training with pytorch
 
-This code is suitable for multi-gpu training on a single machine. You can simply modify the GPUs that you wish to use in [train.sh](./train.sh). To commence training, execute
+This code is suitable for multi-gpu training on a single machine. You can simply modify the GPUs that you wish to use in [train.sh](./train.sh#L3). To commence training, execute
 ```
 . train.sh
 ```
