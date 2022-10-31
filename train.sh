@@ -14,4 +14,4 @@ ARGS=("$@")
 PYTHONPATH="$(dirname $0)":$PYTHONPATH \
 
 # Training script with arguments
-torchrun --nproc_per_node=$GPUS --master_port=$PORT train.py $ARGS
+torchrun --nproc_per_node=$GPUS --master_port=$PORT train.py ${ARGS[@]}
